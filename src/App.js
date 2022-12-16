@@ -11,7 +11,7 @@ function App() {
   );
 }
 
-class ShoppingList extends React.Component {
+export class ShoppingList extends React.Component {
   render() {
     return (
       <div className="shopping-list">
@@ -26,5 +26,4 @@ class ShoppingList extends React.Component {
   }
 }
 
-
-export { App,ShoppingList};
+export default App;
