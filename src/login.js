@@ -54,4 +54,16 @@ class Free extends Component {
   }
 
 
-export default Free;
+
+  class FREEONE extends Component {
+    constructor(props){
+        super(props);
+        this.state = {date: new Date(),item:['mustapha' , 'ahmed' , 'youssef' , 'rayen']};
+        this.updateusername = this.updateusername.bind(this);
+    };
+    render(){
+      return <h1>hi mustpha</h1>
+    }
+  }
+
+export {Free,FREEONE};
