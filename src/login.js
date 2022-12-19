@@ -1,4 +1,5 @@
 import React  ,{Component} from 'react';
+import { Outlet, Link } from "react-router-dom";
 
 
 class Free extends Component {
@@ -46,6 +47,7 @@ class Free extends Component {
             <input type="text" name="name" />
         </label>
         <input type="submit" value="Submit" />
+        <Link to="/aboutus">about us</Link>
         </form>
         </div>
       
@@ -58,11 +60,13 @@ class Free extends Component {
   class FREEONE extends Component {
     constructor(props){
         super(props);
-        this.state = {date: new Date(),item:['mustapha' , 'ahmed' , 'youssef' , 'rayen']};
-        this.updateusername = this.updateusername.bind(this);
     };
     render(){
-      return <h1>hi mustpha</h1>
+      return <div>
+         <Link to="/">Home</Link>
+         <h1>hi mustpha</h1>
+      </div> 
+      
     }
   }
 

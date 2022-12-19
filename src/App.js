@@ -8,8 +8,8 @@ import { Route, Link, Routes } from 'react-router-dom'
 function App() {
   return (
     < Routes >
-         <Route path="/" component={<Free></Free>} />
-         <Route path="/aboutus" component={ <FREEONE></FREEONE> } />
+         <Route path="/" element={<Free/>} />
+         <Route path="/aboutus" element={<FREEONE/>} />
    </ Routes >
   );
 }
