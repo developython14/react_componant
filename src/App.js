@@ -7,12 +7,10 @@ import { Route, Link, Routes } from 'react-router-dom'
 
 function App() {
   return (
-    <div>
     < Routes >
-         <Route path="/" component={Free} />
-         <Route path="/aboutus" component={ FREEONE } />
+         <Route path="/" component={<Free></Free>} />
+         <Route path="/aboutus" component={ <FREEONE></FREEONE> } />
    </ Routes >
-    </div>
   );
 }
 
