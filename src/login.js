@@ -65,11 +65,6 @@ class Free extends Component {
       return <div>
          <Link to="/">Home</Link>
          <h1>hi mustpha</h1>
-         <div>{`The URL is "${match.url}"!`}</div>
-        {/* The path (the one you gave `Route`) is passed as `match.path`. */}
-        <div>{`It matched the path "${match.path}"!`}</div>
-        {/* The parameters are passed as `match.params`. */}
-        <div>{`The parameter is "${match.params.username}"!`}</div>
       </div> 
       
     }
