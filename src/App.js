@@ -9,7 +9,7 @@ function App() {
   return (
     < Routes >
          <Route path="/" element={<Free/>} />
-         <Route path="/aboutus/:username" element={<FREEONE/>} />
+         <Route path="/aboutus" element={<FREEONE/>} />
    </ Routes >
   );
 }
